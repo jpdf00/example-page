@@ -12,10 +12,29 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-
+  <header class="">
+    <nav class="">
+      <div class="d-flex justify-content-between align-items-center">
+        <img src="..." alt="Placeholder">
+        <div class="dropdown">
+          <button class="d-md-none btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./features/assets/menu.svg" alt="Menu Icon">
+          </button>
+          <ul class="border dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Menu 01</a></li>
+            <li><a class="dropdown-item" href="#">Menu 02</a></li>
+            <li><a class="dropdown-item" href="#">Menu 03</a></li>
+            <li><a class="dropdown-item" href="#">Menu 04</a></li>
+            <li><a class="dropdown-item" href="#">Menu 05</a></li>
+          </ul>
+        </div>
+      </div>
+      <ul class="border d-md-flex justify-content-center d-none">
+        <li><a href="#">Menu 01</a></li>
+        <li><a href="#">Menu 02</a></li>
+        <li><a href="#">Menu 03</a></li>
+        <li><a href="#">Menu 04</a></li>
+        <li><a href="#">Menu 05</a></li>
       </ul>
     </nav>
   </header>
