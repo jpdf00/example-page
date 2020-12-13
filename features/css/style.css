@@ -135,5 +135,13 @@ table {
 }
 
 /* meyerweb Reset */
+/* Global */
+a {
+  text-decoration: none;
+}
+
+.nav-bar-top {
+  height: 42px;
+}
 
 /*# sourceMappingURL=style.css.map */

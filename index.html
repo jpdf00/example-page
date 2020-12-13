@@ -9,16 +9,17 @@
   <link rel="stylesheet" href="features/css/style.css">
   <link href="./features/assets/ritualia-logo.png" rel="icon" type="image/x-icon">
   <title>Ritualia</title>
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
   <header class="">
     <nav class="">
-      <div class="d-flex justify-content-between align-items-center">
-        <img src="..." alt="Placeholder">
-        <div class="dropdown">
-          <button class="d-md-none btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="./features/assets/menu.svg" alt="Menu Icon">
+      <div class="nav-bar-top shadow-sm d-flex justify-content-between align-items-center justify-content-md-center">
+        <img src="..." alt="Ritualia-Logo">
+        <div class="dropdown d-md-none">
+          <button class="btn p-2 d-flex justify-content-center align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <i data-feather="menu"></i>
           </button>
           <ul class="border dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li><a class="dropdown-item" href="#">Menu 01</a></li>
@@ -29,12 +30,12 @@
           </ul>
         </div>
       </div>
-      <ul class="border d-md-flex justify-content-center d-none">
-        <li><a href="#">Menu 01</a></li>
-        <li><a href="#">Menu 02</a></li>
-        <li><a href="#">Menu 03</a></li>
-        <li><a href="#">Menu 04</a></li>
-        <li><a href="#">Menu 05</a></li>
+      <ul class="nav-bar-bottom p-3 shadow-sm d-md-flex justify-content-center d-none">
+        <li class="px-3"><a class="text-dark" href="#">Menu 01</a></li>
+        <li class="px-3"><a class="text-dark" href="#">Menu 02</a></li>
+        <li class="px-3"><a class="text-dark" href="#">Menu 03</a></li>
+        <li class="px-3"><a class="text-dark" href="#">Menu 04</a></li>
+        <li class="px-3"><a class="text-dark" href="#">Menu 05</a></li>
       </ul>
     </nav>
   </header>
@@ -44,6 +45,7 @@
   <footer>
 
   </footer>
+  <script>feather.replace()</script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 

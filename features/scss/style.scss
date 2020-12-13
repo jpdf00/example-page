@@ -1,2 +1,12 @@
 /* meyerweb Reset */
 @use '_meyerweb-reset';
+
+/* Global */
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar-top {
+  height: 42px;
+}
